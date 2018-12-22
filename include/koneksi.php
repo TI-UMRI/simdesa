@@ -5,7 +5,7 @@
  */
 $user = "root";
 $host = "localhost";
-$pass = "root";
+$pass = "";
 $db = "simdes";
 $conn = mysqli_connect($host,$user,$pass,$db) or die("koneksi gagal");
 

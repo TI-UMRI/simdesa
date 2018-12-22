@@ -266,7 +266,6 @@ width:10px;
 #slide_show div:hover{
 	opacity:1;
 	cursor:pointer;
-	
 	}
 </style>
 

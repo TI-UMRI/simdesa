@@ -182,7 +182,7 @@ DESA  <?php echo strtoupper($desa['nama']) ?><br/></strong>
 <div id="par_pembuka">
 <span class="masuk_alinea">&nbsp;</span>Yang bertanda tangan dibawah ini , 
 Kepala Desa <?php echo $desa["nama"] ?>, 
-Kecamatan <?php echo $desa["kecamatan"] ?>, Kabupaten <?php echo $desa["kabupaten"] ?> menerangkan dengan 
+Kecamatan <?php echo $desa["kecamatan"] ?>, Kabupaten/Kota <?php echo $desa["kabupaten"] ?> menerangkan dengan 
 sebenarnya bahwa orang tersebut dibawah ini :
 </div>
 <div id="content_surat"></div>

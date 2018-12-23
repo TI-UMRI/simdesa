@@ -49,7 +49,7 @@ $jumlah_bulan_lalu = $jumlah_bulan_lalu_lk + $jumlah_bulan_lalu_pr;
 		<td>kecamatan</td><td>:</td><td><?php echo $desa['kecamatan'] ?></td>
 	</tr>
 	<tr>
-		<td>kabupaten</td><td>:</td><td><?php echo $desa['kabupaten'] ?></td>
+		<td>kabupaten/kota</td><td>:</td><td><?php echo $desa['kabupaten'] ?></td>
 	</tr>
 	<tr>
 		<td>bulan</td><td>:</td><td><?php echo $bulan[$tgl_arr['1']]." ".$tgl_arr['2'] ?></td>

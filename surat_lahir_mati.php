@@ -138,7 +138,7 @@ else {
 <!-- awal kepala surat -->
 
 <div id="kepala_surat"><img src="img/pekanbaru.jpg" width="100px" height="100px" id="logo_surat" valign="baseline"/>
-<strong>PEMERINTAHAN KABUPATEN <?php echo strtoupper($desa['kabupaten']) ?><br/>
+<strong>PEMERINTAHAN KABUPATEN / KOTA <?php echo strtoupper($desa['kabupaten']) ?><br/>
 KECAMATAN  <?php echo strtoupper($desa['kecamatan']) ?><br/>
 DESA  <?php echo strtoupper($desa['nama']) ?><br/></strong>
 <?php echo ucwords($desa['alamat']) ?> Telp. <?php echo $desa['tlp'] ?>
@@ -153,7 +153,7 @@ DESA  <?php echo strtoupper($desa['nama']) ?><br/></strong>
 <div id="par_pembuka">
 <span class="masuk_alinea">&nbsp;</span>Yang bertanda tangan dibawah ini , 
 Kepala Desa <?php echo $desa["nama"] ?>, 
-Kecamatan <?php echo $desa["kecamatan"] ?>, Kabupaten <?php echo $desa["kabupaten"] ?> menerangkan dengan 
+Kecamatan <?php echo $desa["kecamatan"] ?>, Kabupaten/Kota <?php echo $desa["kabupaten"] ?> menerangkan dengan 
 sebenarnya bahwa orang tersebut dibawah ini :
 </div>
 <div id="content_surat">

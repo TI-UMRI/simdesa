@@ -194,7 +194,7 @@ dapat digunakan sebagaimana mestinya.</div>
 	<div id="nama_pemohon"></div>
 </div>	
 <div class="tanda_tangan" style="float:right">
-	<div>Duduksampeyan, <?php echo date("d-m-Y") ?></div>
+	<div>Air Hitam, <?php echo date("d-m-Y") ?></div>
 	<div class="kosong" id="pejabat"><?php echo $desa["tt_kades"]; ?></div>
 	<div id="nama_pejabat"><?php echo "<span style='text-transform:uppercase;text-decoration:underline'>".$desa["kades"]."</span>"; ?></div>
 </div>

@@ -70,7 +70,7 @@ dapat digunakan sebagaimana mestinya.</div>
 	<div id="nama_pemohon" style="text-decoration:underline"><?php echo $data_surat['nama_warga'] ?></div>
 </div>	
 <div class="tanda_tangan" style="float:right">
-	<div>Duduksampeyan, <?php echo $data_surat['tanggal'] ?></div>
+	<div>Air Hitam, <?php echo $data_surat['tanggal'] ?></div>
 	<?php
 	// periksa yang tanda tangan
 	$ttd = json_decode($data_surat['tanda_tangan'],true);
@@ -149,7 +149,7 @@ else {
 <div id="par_penutup"><span class="masuk_alinea">&nbsp;</span>Demikian Surat Keterangan ini diberikan, untuk 
 dapat atas dasar sebenarnya.</div>
 <div class="tanda_tangan" style="float:right">
-	<div>Duduksampeyan, <?php echo date("d-m-Y") ?></div>
+	<div>Air Hitam, <?php echo date("d-m-Y") ?></div>
 	<div class="kosong" id="pejabat"><?php echo $desa["tt_kades"]; ?></div>
 	<div id="nama_pejabat"><?php echo "<span style='text-transform:uppercase;text-decoration:underline'>".$desa["kades"]."</span>"; ?></div>
 </div>

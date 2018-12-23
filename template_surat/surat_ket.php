@@ -22,15 +22,15 @@ for($i = 0; $i < count($data); $i++){
 }
 ?>
 <div id="surat">
-<div id="kop_surat">Header iki</div>
+<div id="kop_surat">Header</div>
 <div id="nomer_surat">
 <div class="nama_surat">Surat Keterangan <?php echo $nama_surat; ?></div>
 <div>Nomor : <?php echo $no_surat; ?></div>
 </div>
 <div id="par_pembuka">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan dibawah ini , 
-Kepala Desa Duduksampeyan, 
-Kecamatan Duduksampeyan, Kabupaten Gresik menerangkan dengan 
+Kepala Desa Air Hitam, 
+Kecamatan Payung Sekaki, Kota Pekanbaru menerangkan dengan 
 sebenarnya bahwa orang tersebut dibawah ini :
 </div>
 <div id="content_surat">

@@ -40,8 +40,8 @@ $sql_kel_exe = mysqli_query($conn,$sql_keluarga);
 		<th>Agama</th>
 		<th>Tempat lahir</th>
 		<th>Tanggal lahir</th>
-		<th>J_kel</th>
-		<th>s_nikah</th>
+		<th>Jenis kelamin</th>
+		<th>Status pernikahan</th>
 		</tr>
 <?php
 	$no = 1;

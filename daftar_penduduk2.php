@@ -97,7 +97,7 @@ function hal(elm){
 	var tabel = "warga";
 	var nama_id = "no_ktp";
 	var url_update = "update.php";
-	$("#table").html("ditunggu cak ....");
+	$("#table").html("mohon tunggu ....");
 	$.post(url,{hal:hal,bag:bag_sekarang,sql:sql,url_update:url_update,tabel:tabel,nama_id:nama_id,edit:1},function(data){
 		$("#table").html(data);
 		$("#hal_ke").html("Halaman ke : <strong>"+hal+"</strong> dari <strong>"+$("#jum_hal").text()+"</strong> halaman"); 
@@ -164,7 +164,7 @@ $(function(){
 			var sql = $("#sql").text();
 			var sql_baru = sql+where;
 			// cek jumlah data yang ditemukan
-		$("#table").html("ditunggu cak ..........");	
+		$("#table").html("mohon tunggu ..........");	
 		$.post("jumlah_data_cari.php",{sql:sql_baru},function(data){
 			if(data > 0){
 			// load ulang data pada tabel dan bangun kembali nomer paging
